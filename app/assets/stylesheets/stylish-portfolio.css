@@ -31,7 +31,7 @@ body {
 
 /* Custom Button Styles */
 
-.btn-dark {
+.btn-primary {
   border-radius: 0;
   color: #fff;
   background-color: rgba(0,0,0,0.4);
@@ -59,9 +59,9 @@ body {
 
 /* Custom Horizontal Rule */
 
-hr.small {
+/*hr.small {
   max-width: 100px;
-}
+}*/
 
 /* Side Menu */
 
@@ -81,7 +81,6 @@ hr.small {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
-
 .sidebar-nav {
   position: absolute;
   top: 0;
@@ -99,12 +98,12 @@ hr.small {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: white;
   background: rgba(255,255,255,0.2);
 }
 
@@ -120,11 +119,11 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #999;
+  color: white;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: white;
   background: none;
 }
 
@@ -156,7 +155,7 @@ hr.small {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(world.jpg) no-repeat center center scroll;
+  background: url(https://github.com/cwilliams3579/Screenshots/blob/master/world.jpg?raw=true) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -195,7 +194,7 @@ hr.small {
   width: 100%;
   height: 700px;
   color: #fff;
-  background: url(board.jpg) no-repeat center center scroll;
+  background: url(https://github.com/cwilliams3579/Screenshots/blob/master/board.jpg?raw=true) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

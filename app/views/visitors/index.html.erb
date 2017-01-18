@@ -96,14 +96,14 @@
     <%= video_tag "StarShipTroopers.mp4", :size => "320x240", :controls => true, :id => "video8" %>
   </div>
   <!-- Footer -->
+  <a href="#" id="contact"></a>
   <footer>
-    <a href="#" id="contact"></a>
     <div class="container">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1 text-center">
           <ul class="list-unstyled">
-            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:clevelandwilliams3579@gmail.com.com">clevelandwilliams3579@gmail.com</a>
-              <li><i class="fa fa-phone fa-fw"></i> (407) 267-4838
+            <li><i class="fa fa-envelope-o fa-fw fa-2x"></i><a href="mailto:clevelandwilliams3579@gmail.com.com">clevelandwilliams3579@gmail.com</a>
+              <li><i class="fa fa-phone fa-fw fa-2x"></i> (407) 267-4838
               </li>
             </li>
           </ul>
@@ -128,32 +128,3 @@
     </div>
   </footer>
   <!-- Custom Theme JavaScript -->
-  <script>
-  // Closes the sidebar menu
-  $("#menu-close").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-  });
-
-  // Opens the sidebar menu
-  $("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-  });
-  // Scrolls to the selected menu item on the page
-  $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
-  </script>
