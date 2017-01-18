@@ -151,15 +151,19 @@ body {
 /* Header */
 
 .header {
-  display: table;
+  /*display: table;*/
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
   height: 100%;
   background: url(https://github.com/cwilliams3579/Screenshots/blob/master/world.jpg?raw=true) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position: center center;
+background-attachment: fixed;
+/*background-position:center;*/
 }
 
 .btn-xlarge {
@@ -190,15 +194,17 @@ body {
 /* Callout */
 
 .callout {
-  display: table;
-  width: 100%;
-  height: 700px;
+  /*display: table;*/
+  /*width: 100%;
+  height: 700px;*/
   color: #fff;
   background: url(https://github.com/cwilliams3579/Screenshots/blob/master/board.jpg?raw=true) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 }
 
 /* Portfolio */
