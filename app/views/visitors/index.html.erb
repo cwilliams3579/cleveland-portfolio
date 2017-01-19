@@ -22,12 +22,12 @@
 </nav>
 
 <!-- Header -->
-<header id="top" class="header">
+<header id="top" class="header animated fadeInLeftBig">
   <div class="text-vertical-center">
     <!-- <h1>My Portfolio</h1>
     <h3>Full Stack Developer</h3> -->
     <br>
-    <a href="#about" class="btn btn-dark btn-xlarge" id="find">Find Out More</a>
+    <a href="#about" class="btn btn-dark btn-xlarge animated lightSpeedIn" id="find">Find Out More</a>
   </div>
 </header>
 
@@ -36,8 +36,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>My developer journey</h2>
-        <p class="lead">I started out with computer repair &amp; building high end gaming computers from my junior high school days about 15 years ago. After building computers for so long, I became interested in web design after which I encountered valuable resources. Among them were Coding Dojo an onsite bootcamp, Udemy and FreeCodeCamp.
+        <h2 class="animated fadeInLeftBig">My developer journey</h2>
+        <p class="lead animated fadeInRightBig">I started out with computer repair &amp; building high end gaming computers from my junior high school days about 15 years ago. After building computers for so long, I became interested in web design after which I encountered valuable resources. Among them were Coding Dojo an onsite bootcamp, Udemy and FreeCodeCamp.
           The Coding Dojo focused on laying a foundation for web development. The instructors were awesome and very knowledgeable. I started out by learning the fundamentals of HTML, CSS and JavaScript. The instructors taught us three full stacks including Python, M.E.A.N and Ruby on Rails. After the first few weeks of building cool web apps with different frameworks, my love affair with web design began. I would literally spend hours working on projects while implimenting new features and techniques. Web design is now my obsession and without it feels like a part of me is missing.
         </p>
       </div>
@@ -51,7 +51,7 @@
 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
 
 <!-- Callout -->
-<aside class="callout">
+<aside class="callout animated fadeInLeftBig">
   <div class="text-vertical-center">
 
   </div>
@@ -60,48 +60,50 @@
 <!-- Call to Action -->
 <aside class="call-to-action">
   <div class="container">
-    <div class="row">
+    <div class="row"   id="videoBox">
 
     </div>
   </div>
 </aside>
 <a id="portfolio"></a>
 <div class="workGroup1">
-  <div class="items">
-    <%=image_tag("https://github.com/cwilliams3579/my-projects/blob/master/Api/Screenshot_2016-11-08_10-35-18.png?raw=true", :class => "item item1 img-responsive")%>
+  <div class="items animated fadeInRightBig">
+    <%=image_tag("https://github.com/cwilliams3579/my-projects/blob/master/Api/Screenshot_2016-11-08_10-35-18.png?raw=true", :class => "item item1 img-responsive animated fadeInRightBig")%>
 
-    <img src="https://github.com/cwilliams3579/my-projects/blob/master/Flask/NinjaGold/ninja-gold.png?raw=true" alt="ninja-gold" class="item item2 img-responsive">
+    <img src="https://github.com/cwilliams3579/my-projects/blob/master/Flask/NinjaGold/ninja-gold.png?raw=true" alt="ninja-gold" class="item item2 img-responsive animated fadeInRightBig">
 
-    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/Disappearing%20Ninja/Screenshot_2016-11-08_10-50-22.png?raw=true" alt="disappering-mario" class="item item3 img-responsive">
-    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/SortableNinja/Screenshot_2016-11-08_11-34-39.png?raw=true" alt="sortable-ninja" class="item item4 img-responsive">
-    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/hover/Screenshot_2016-11-08_11-00-21.png?raw=true" alt="hover" class="item item5 img-responsive">
-    <img src="https://github.com/cwilliams3579/my-projects/blob/master/Flask/NinjaGold/Screenshot_2016-11-08_13-11-41.png?raw=true" alt="ninja-gold" class="item item6 img-responsive">
-    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/NinjaToCat/Screenshot_2016-11-08_11-27-37.png?raw=true" alt="ninja-cat" class="item item7 img-responsive">
-    <img src="https://github.com/cwilliams3579/AlphaBlog/blob/master/blogger.png?raw=true" alt="" class="item item8 img-responsive">
-    <img src="https://github.com/cwilliams3579/Screenshots/blob/master/random-quote.png?raw=true" alt="" class="item item9 img-responsive">
+    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/Disappearing%20Ninja/Screenshot_2016-11-08_10-50-22.png?raw=true" alt="disappering-mario" class="item item3 img-responsive animated fadeInRightBig">
+    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/SortableNinja/Screenshot_2016-11-08_11-34-39.png?raw=true" alt="sortable-ninja" class="item item4 img-responsive animated fadeInRightBig">
+    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/hover/Screenshot_2016-11-08_11-00-21.png?raw=true" alt="hover" class="item item5 img-responsive animated fadeInRightBig">
+    <img src="https://github.com/cwilliams3579/my-projects/blob/master/Flask/NinjaGold/Screenshot_2016-11-08_13-11-41.png?raw=true" alt="ninja-gold" class="item item6 img-responsive animated fadeInRightBig">
+    <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/NinjaToCat/Screenshot_2016-11-08_11-27-37.png?raw=true" alt="ninja-cat" class="item item7 img-responsive animated fadeInRightBig">
+    <img src="https://github.com/cwilliams3579/AlphaBlog/blob/master/blogger.png?raw=true" alt="" class="item item8 img-responsive animated fadeInRightBig">
+    <img src="https://github.com/cwilliams3579/Screenshots/blob/master/random-quote.png?raw=true" alt="" class="item item9 img-responsive animated fadeInRightBig">
 
-    <%= image_tag("SpaceTroopers.png",  :class =>"item item10 img-responsive") %>
-    <img src="https://github.com/cwilliams3579/Screenshots/blob/master/number-game-rails.png?raw=true" alt="number-game" class="item item11 img-responsive">
-    <img src="https://github.com/cwilliams3579/Screenshots/blob/master/pokedex.png?raw=true" alt="pokedex" class="item item12 img-responsive">
+    <%= image_tag("SpaceTroopers.png",  :class =>"item item10 img-responsive animated fadeInRightBig") %>
+    <img src="https://github.com/cwilliams3579/Screenshots/blob/master/number-game-rails.png?raw=true" alt="number-game" class="item item11 img-responsive animated fadeInRightBig">
+    <img src="https://github.com/cwilliams3579/Screenshots/blob/master/pokedex.png?raw=true" alt="pokedex" class="item item12 img-responsive animated fadeInRightBig">
   </div>
 </div>
 <br><br><br>
-
-  <div class="row text-center">
+  <div class="text-center">
     <div class="text-center" id="left-side">
-      <%= video_tag "StarShipTroopers.mp4", :id => "video1", :size => "320x240", :controls => true %>
+      <%= video_tag "StarShipTroopers.mp4", :id => "video1", :class => "animated fadeInLeftBig", :size => "320x240", :controls => true %>
+      <h4>Made with the Stencyl game engine</h4>
       <hr>
-      <%= video_tag "ninja-gold.mp4", :id => "video2", :size => "320x240", :controls => true %>
+      <%= video_tag "ninja-gold.mp4", :id => "video2", :class => "animated fadeInRightBig", :size => "320x240", :controls => true %>
+      <h4>Made in Ruby on Rails </h4>
     </div>
     <div class="text-center" id="right-side">
-      <%= video_tag "StarShipTroopers.mp4", :id => "video1", :size => "320x240", :controls => true %>
+      <%= video_tag "StarShipTroopers.mp4", :id => "video1", :class => "animated fadeInLeftBig", :size => "320x240", :controls => true %>
+      <h4>Made in Ruby on Rails </h4>
       <hr>
-      <%= video_tag "ninja-gold.mp4", :id => "video2", :size => "320x240", :controls => true %>
+      <%= video_tag "ninja-gold.mp4", :id => "video2", :class => "animated fadeInRightBig", :size => "320x240", :controls => true %>
+      <h4>Made in Ruby on Rails</h4>
     </div>
   </div>
 
 </div>
-
 <!-- Footer -->
 <footer>
   <a href="#" id="contact"></a>
@@ -109,7 +111,7 @@
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
         <ul class="list-unstyled">
-          <li><i class="fa fa-envelope-o fa-fw fa-2x"></i><a href="mailto:clevelandwilliams3579@gmail.com.com" id="mail">clevelandwilliams3579@gmail.com</a>
+          <li><i class="fa fa-envelope-o fa-fw fa-2x animated fadeInLeftBig"></i><a href="mailto:clevelandwilliams3579@gmail.com.com" id="mail" class="animated fadeInRightBig">clevelandwilliams3579@gmail.com</a>
             <li id="number"><i class="fa fa-phone fa-fw fa-2x"></i> (407) 267-4838
             </li>
           </li>
@@ -117,20 +119,20 @@
         <br>
         <ul class="list-inline">
           <li>
-            <a href="https://www.facebook.com/tony.gilbert.9440"><i class="fa fa-facebook fa-fw fa-3x" target="_blank"></i></a>
+            <a href="https://www.facebook.com/tony.gilbert.9440"><i class="fa fa-facebook fa-fw fa-3x animated fadeInLeftBig" target="_blank"></i></a>
           </li>
           <li>
-            <a href="https://github.com/cwilliams3579" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            <a href="https://github.com/cwilliams3579" target="_blank"><i class="fa fa-github fa-fw fa-3x animated fadeInLeftBig"></i></a>
           </li>
           <li>
-            <a href="http://codepen.io/cwilliams3579/" target="_blank"><i class="fa fa-codepen fa-fw fa-3x"></i></a>
+            <a href="http://codepen.io/cwilliams3579/" target="_blank"><i class="fa fa-codepen fa-fw fa-3x animated fadeInRightBig"></i></a>
           </li>
           <li>
-            <a href="https://www.freecodecamp.com/cwilliams3579" target="_blank"><i class="fa fa-fire fa-fw fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.freecodecamp.com/cwilliams3579" target="_blank"><i class="fa fa-fire fa-fw fa-3x animated fadeInRightBig" aria-hidden="true"></i></a>
           </li>
         </ul>
         <hr class="small">
-        <a href="#top"><i class="fa fa-rocket" aria-hidden="true"> Back to top</i></a>
+        <a href="#top"><i class="fa fa-rocket animated shake" aria-hidden="true"> Back to top</i></a>
       </div>
     </div>
   </div>

@@ -2,6 +2,9 @@
   box-sizing: inherit;
 }
 .items {
+  // -webkit-animation-duration: 5s;
+  // -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
   height:600px;
   padding-top: 35px;
   padding-bottom: 10px;
@@ -30,6 +33,9 @@
 
 .item {
   width:400px;
+  // -webkit-animation-duration: 30s;
+  // -webkit-animation-delay: 10s;
+  // -webkit-animation-iteration-count: infinite;
   padding: 40px;
   height: calc(80% - 40px);
   display: inline-flex;
@@ -81,9 +87,16 @@
   padding-top: 5px;
   margin: 0 auto;
 }
+#video2 {
+  padding-bottom: 5px;
+}
 #video3, #video4 {
   margin: 0 auto;
   padding-top: 5px;
+}
+#left-side, #right-side {
+  display: inline-block;
+  padding: 10px;
 }
 
 .img-responsive {
@@ -104,4 +117,7 @@
 }
 #number {
   font-size: large;
+}
+#videoBox {
+  background-image: url(world.jpg);
 }

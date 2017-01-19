@@ -18,7 +18,7 @@ $(document).on('turbolinks:load', function() {
 
   var win = $(window);
 
-  var allMods = $("a, p");
+  var allMods = $(".animated");
 
   allMods.each(function(i, el) {
     var el = $(el);
