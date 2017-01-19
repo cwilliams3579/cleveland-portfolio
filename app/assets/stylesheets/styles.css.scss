@@ -1,7 +1,6 @@
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 .items {
   height:600px;
   padding-top: 35px;
@@ -62,6 +61,7 @@
 
 .container-fluid {
   // border:20px groove #337AB7;
+  // background: url(matrix.jpg);
   padding: 20px;
   margin: 0 auto;
   max-width: 80%;
