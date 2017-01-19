@@ -13,7 +13,6 @@ $(document).on('turbolinks:load', function() {
       return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
 
     };
-
   })(jQuery);
 
   var win = $(window);
