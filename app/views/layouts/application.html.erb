@@ -15,9 +15,6 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 </head>
 <body>
-  <header>
-    <%= render 'layouts/navigation' unless current_page?(root_path) %>
-  </header>
   <%= render 'layouts/messages' %>
   <%= yield %>
 </body>

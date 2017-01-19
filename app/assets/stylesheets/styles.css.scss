@@ -10,7 +10,7 @@
   padding-bottom: 10px;
   width: 90%;
   margin: 0 auto;
-  border:40px groove #337AB7;
+  border:40px groove #024589;
   box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.09);
   overflow-x: scroll;
   overflow-y: hidden;
@@ -47,15 +47,15 @@
   box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15);
 }
 
-.item:nth-child(9n+1) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+2) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+3) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+4) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+5) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+6) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+7) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+8) { border: 20px #337AB7 groove;}
-.item:nth-child(9n+9) { border: 20px #337AB7 groove;}
+.item:nth-child(9n+1) { border: 20px #024589 groove;}
+.item:nth-child(9n+2) { border: 20px #024589 groove;}
+.item:nth-child(9n+3) { border: 20px #024589 groove;}
+.item:nth-child(9n+4) { border: 20px #024589 groove;}
+.item:nth-child(9n+5) { border: 20px #024589 groove;}
+.item:nth-child(9n+6) { border: 20px #024589 groove;}
+.item:nth-child(9n+7) { border: 20px #024589 groove;}
+.item:nth-child(9n+8) { border: 20px #024589 groove;}
+.item:nth-child(9n+9) { border: 20px #024589 groove;}
 
 .item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
 .item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
@@ -86,6 +86,7 @@
 #video1, #video2 {
   padding-top: 5px;
   margin: 0 auto;
+  border: 10px groove #024589;
 }
 #video2 {
   padding-bottom: 5px;
@@ -119,5 +120,5 @@
   font-size: large;
 }
 #videoBox {
-  background-image: url(world.jpg);
+    background-image: url(world.jpg);
 }
