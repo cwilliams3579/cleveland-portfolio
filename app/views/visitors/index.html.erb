@@ -1,4 +1,5 @@
 <!-- Navigation -->
+<a href="#" id="top"></a>
 <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
 <nav id="sidebar-wrapper">
   <ul class="sidebar-nav">
@@ -31,10 +32,10 @@
 <section id="about" class="about">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="showbox slideright col-lg-12 text-center">
         <h2 class="animated fadeInLeftBig">My Developer Journey</h2>
         <p class="lead animated fadeInRightBig">I started out with computer repair &amp; building high end gaming computers from my junior high school days about 15 years ago. After building computers for so long, I became interested in web design after which I encountered valuable resources. Among them were Coding Dojo an onsite bootcamp, Udemy and FreeCodeCamp.
-          The Coding Dojo focused on laying a foundation for web development. The instructors were awesome and very knowledgeable. I started out by learning the fundamentals of HTML, CSS and JavaScript. The instructors taught us three full stacks including Python, M.E.A.N and Ruby on Rails. After the first few weeks of building cool web apps with different frameworks, my love affair with web design began. I would literally spend hours working on projects while implimenting new features and techniques. Web design is now my obsession and without it feels like a part of me is missing.
+          The Coding Dojo courses were focused on laying a foundation for web development. The instructors were awesome and very knowledgeable. I started out by learning the fundamentals of HTML, CSS and JavaScript. The instructors taught us three full stacks including Python, M.E.A.N and Ruby on Rails. After the first few weeks of building cool web apps with different frameworks, my love affair with web design began. I would literally spend hours working on projects while implimenting new features and techniques. Web design is now my obsession and without it feels like a part of me is missing.
         </p>
       </div>
     </div>
@@ -56,7 +57,7 @@
 <!-- Call to Action -->
 <aside class="call-to-action">
 <div class="container">
-<div class="row"   id="videoBox">
+<div class="row" id="videoBox">
 
 </div>
 </div>
@@ -64,6 +65,17 @@
 <a id="portfolio"></a>
 <div class="workGroup1">
   <div class="items animated fadeInRightBig">
+    <a href="https://mysterious-river-34583.herokuapp.com/" target="_blank">
+      <%=image_tag("https://github.com/cwilliams3579/Screenshots/blob/master/manage-screenshot.jpg?raw=true", :class => "item item1 img-responsive animated fadeInRightBig")%>
+    </a>
+
+    <a href="https://github.com/cwilliams3579/AlphaBlog" target="_blank">
+      <img src="https://github.com/cwilliams3579/Screenshots/blob/master/blogger.jpg?raw=true" alt="" class="item item8 img-responsive animated fadeInRightBig">
+    </a>
+
+    <a href="https://github.com/cwilliams3579/GroupChat" target="_blank">
+      <%=image_tag("https://github.com/cwilliams3579/Screenshots/blob/master/Screenshot_2016-12-02_03-26-24.png?raw=true", :class => "item item1 img-responsive animated fadeInRightBig")%>
+    </a>
     <a href="http://codepen.io/cwilliams3579/pen/xRwZZM" target="_blank">
       <%=image_tag("https://github.com/cwilliams3579/my-projects/blob/master/Api/Screenshot_2016-11-08_10-35-18.png?raw=true", :class => "item item1 img-responsive animated fadeInRightBig")%>
     </a>
@@ -92,12 +104,9 @@
       <img src="https://github.com/cwilliams3579/my-projects/blob/master/jQuery/NinjaToCat/Screenshot_2016-11-08_11-27-37.png?raw=true" alt="ninja-cat" class="item item7 img-responsive animated fadeInRightBig">
     </a>
 
-    <a href="https://github.com/cwilliams3579/AlphaBlog" target="_blank">
-      <img src="https://github.com/cwilliams3579/AlphaBlog/blob/master/blogger.png?raw=true" alt="" class="item item8 img-responsive animated fadeInRightBig">
-    </a>
 
     <a href="http://codepen.io/cwilliams3579/pen/RoBYOK" target="_blank">
-      <img src="https://github.com/cwilliams3579/Screenshots/blob/master/random-quote.png?raw=true" alt="" class="item item9 img-responsive animated fadeInRightBig">
+      <img src="https://github.com/cwilliams3579/Screenshots/blob/master/random-quote.png?raw=true" alt="random-quote" class="item item9 img-responsive animated fadeInRightBig">
     </a>
 
     <a href="#" target="_blank">
@@ -117,17 +126,17 @@
 <div class="text-center">
   <div class="text-center" id="left-side">
     <%= video_tag "StarShipTroopers.mp4", :id => "video1", :class => "animated fadeInLeftBig", :size => "320x240", :controls => true %>
-    <h4>Made with the Stencyl game engine</h4>
+    <h4>Made with the Stencyl</h4>
     <hr>
     <%= video_tag "ninja-gold.mp4", :id => "video2", :class => "animated fadeInRightBig", :size => "320x240", :controls => true %>
-    <h4>Made in Ruby on Rails </h4>
+    <h4>Made with Ruby on Rails </h4>
   </div>
   <div class="text-center" id="right-side">
     <%= video_tag "StarShipTroopers.mp4", :id => "video1", :class => "animated fadeInLeftBig", :size => "320x240", :controls => true %>
-    <h4>Made in Ruby on Rails </h4>
+    <h4>Made with Stencyl </h4>
     <hr>
     <%= video_tag "ninja-gold.mp4", :id => "video2", :class => "animated fadeInRightBig", :size => "320x240", :controls => true %>
-    <h4>Made in Ruby on Rails</h4>
+    <h4>Made with Ruby on Rails</h4>
   </div>
 </div>
 
@@ -160,7 +169,7 @@
           </li>
         </ul>
         <hr class="small">
-        <a href="#" id="top"><i class="fa fa-rocket animated shake" aria-hidden="true"> Back to top</i></a>
+        <a href="#"><i class="fa fa-rocket animated shake" aria-hidden="true"> Back to top</i></a>
       </div>
     </div>
   </div>
