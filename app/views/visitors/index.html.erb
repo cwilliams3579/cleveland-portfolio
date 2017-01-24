@@ -32,7 +32,7 @@
   </ul>
 </nav>
 <!-- Header -->
-<header class="header animated fadeInRightBig">
+<header class="header img-responsive animated fadeInRightBig">
   <div class="text-vertical-center">
     <br>
     <a href="#about" class="btn btn-dark btn-xlarge animated ruberBand" id="find">Find Out More</a>
@@ -137,20 +137,16 @@
 </div>
 <br><br><br>
 <div class="text-center">
-  <div class="text-center" id="left-side">
+  <div class="text-center video-container" id="left-side">
     <%= video_tag "StarShipTroopers.mp4", :id => "video1", :class => "animated fadeInLeftBig", :size => "320x240", :controls => true %>
     <h4>Made with Stencyl</h4>
-    <hr>
-    <%= video_tag "tennis.mkv", :id => "video2", :class => "animated fadeInRightBig", :size => "320x240", :controls => true %>
-    <h4>Made with HTML5 canvas </h4>
+
   </div>
   <div class="text-center" id="right-side">
-    <%= video_tag "StarShipTroopers.mp4", :id => "video1", :class => "animated fadeInLeftBig", :size => "320x240", :controls => true %>
-    <h4>Made with Stencyl </h4>
-    <hr>
-    <%= video_tag "ninja-gold.mp4", :id => "video2", :class => "animated fadeInRightBig", :size => "320x240", :controls => true %>
-    <h4>Made with Ruby on Rails</h4>
+    <%= video_tag "tennis.mkv", :id => "video2", :class => "animated fadeInRightBig", :size => "320x240", :controls => true %>
+    <h4>Made with HTML5 canvas</h4>
   </div>
+  <hr>
 </div>
 
 </div>

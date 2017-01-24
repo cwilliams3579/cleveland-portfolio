@@ -24,6 +24,10 @@ group :development do
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
+gem 'suspenders'
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
 gem 'high_voltage'
 group :development do
   gem 'better_errors'
