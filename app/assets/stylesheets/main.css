@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("font-awesome.min.css");
-
+$primary-color #483949;
 
 
 /* Reset */
@@ -1604,7 +1604,7 @@
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: $primary-color;
 	}
 
 	em, i {
@@ -1622,7 +1622,7 @@
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: $primary-color;
 			border-bottom-color: transparent;
 		}
 
@@ -1853,7 +1853,7 @@
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #023F5B;
 				}
 
 	ol.default {
@@ -2668,6 +2668,9 @@
 
 			h2 {
 				font-size: 1.75em;
+			}
+			h2:hover{
+				color: $primary-color;
 			}
 
 			h3 {

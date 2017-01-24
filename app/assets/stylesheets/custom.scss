@@ -79,12 +79,13 @@ $primary-color: #483949;
 */
 .jssora05l, .jssora05r {
     display: block;
+    color: $primary-color;
     position: absolute;
     /* size of arrow element */
     width: 40px;
     height: 40px;
     cursor: pointer;
-    background: url('t01.png') no-repeat;
+    background: url('left-arrow.png') no-repeat;
     overflow: hidden;
 }
 .jssora05l { background-position: -10px -40px; }
@@ -101,4 +102,7 @@ $primary-color: #483949;
 }
 #phone-width {
   min-width: 360px;
+}
+#port {
+  color: $primary-color;
 }
