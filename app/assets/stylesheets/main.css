@@ -1853,7 +1853,7 @@ $primary-color #483949;
 			}
 
 				ul.icons li a:hover {
-					color: #023F5B;
+					background: #d5d5d5;
 				}
 
 	ol.default {
