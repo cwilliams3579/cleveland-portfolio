@@ -1,3 +1,4 @@
+$primary-color: #483949;
 // @import "bourbon/bourbon";
 @import 'vars';
 @import 'functions';
@@ -76,7 +77,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: $primary-color;
 		line-height: 1.25em;
 	}
 
@@ -105,7 +106,7 @@
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: $primary-color;
 	}
 
 	em, i {
@@ -379,7 +380,7 @@
 		label {
 			display: block;
 			font-weight: 400;
-			color: #483949;
+			color: $primary-color;
 			margin: 0 0 1em 0;
 		}
 
@@ -491,7 +492,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #483949;
+		background: $primary-color;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -505,7 +506,7 @@
 
 		&:hover {
 			color: #fff;
-			background: #483949;
+			background: $primary-color;
 		}
 
 		&.alt {
