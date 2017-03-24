@@ -34,17 +34,24 @@
 
   </script>
 </head>
-<body class="indigo-skin">
+<body class="hidden-sn mdb-skin">
   <%= render 'layouts/navigation' %>
-  <main role="main">
+  <div class="container-fluid">
      <%= render 'layouts/messages' %>
      <%= yield %>
-  </main>
+  </div>
   <br>
   <%= render 'layouts/footer' %>
-  <script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled.min.js"></script>
   <script>
       new WOW().init();
   </script>
+  <!-- SCRIPTS -->
+    <script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled.min.js"></script>
+    <script>
+    $(".button-collapse").sideNav();
+
+    var el = document.querySelector('.custom-scrollbar');
+        Ps.initialize(el);
+    </script>
 </body>
 </html>
