@@ -1,0 +1,48 @@
+<br><br><br><br>
+<br><br><br><br>
+<div class="col-md-4 mx-auto">
+
+  <!--Form with header-->
+  <div class="card grey-gradient">
+      <div class="card-block">
+
+          <!--Header-->
+          <div class="form-header grey-gradient">
+              <h3><i class="fa fa-envelope"></i> Contact</h3>
+          </div>
+
+          <!--Body-->
+          <%= form_for @contact do |f| %>
+            <%#= render "shared/errors", object: @contact %>
+
+          <div class="md-form">
+              <i class="fa fa-user prefix white-text"></i>
+              <%= f.text_field :name, class: "form-control white-text" %>
+              <label for="form3">Your name</label>
+          </div>
+          <div class="md-form">
+              <i class="fa fa-envelope prefix white-text"></i>
+              <%= f.email_field :email, class: "form-control white-text" %>
+              <label for="form2">Your email</label>
+          </div>
+
+          <div class="md-form">
+              <i class="fa fa-pencil prefix faa-horizontal animated white-text"></i>
+              <%= f.text_field :message, class: "md-textarea white-text" %>
+              <label for="form4">Message</label>
+          </div>
+
+          <div class="hidden">
+            <%= f.label :nickname %>
+            <%= f.text_field :nickname, hint: 'leave this field bank' %>
+          </div>
+
+          <div class="md-form">
+              <%= f.submit 'Send', class: "btn btn-rounded btn-lg btn-block grey-gradient" %>
+          </div>
+        <% end %>
+      </div>
+  </div>
+  <!--/Form with header-->
+
+</div>

@@ -7,7 +7,7 @@ ruby '2.4.0'
 gem 'rails', '~> 5.0.1'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
-gem "animate-rails"
+gem 'animate-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
@@ -24,10 +24,7 @@ group :development do
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
-gem 'suspenders'
-gem 'bourbon'
-gem 'neat'
-gem 'bitters'
+gem 'mail_form', '~> 1.7'
 gem 'high_voltage'
 group :development do
   gem 'better_errors'

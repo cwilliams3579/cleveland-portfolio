@@ -13,11 +13,10 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <link href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
   <script type="text/javascript" src="http://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
   <script>
@@ -34,24 +33,54 @@
 
   </script>
 </head>
-<body class="hidden-sn mdb-skin">
-  <%= render 'layouts/navigation' %>
-  <div class="container-fluid">
-     <%= render 'layouts/messages' %>
-     <%= yield %>
-  </div>
-  <br>
-  <%= render 'layouts/footer' %>
-  <script>
-      new WOW().init();
-  </script>
-  <!-- SCRIPTS -->
-    <script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled.min.js"></script>
-    <script>
-    $(".button-collapse").sideNav();
+  <body class="intro-page developer" cz-shortcut-listen="true">
+    <!--Navigation & Intro-->
+    <header>
+      <%= render 'layouts/nav' %>
+    </header>
+    <!--/Navigation & Intro-->
+    <div class="container-fluid">
+       <%= render 'layouts/messages' %>
+       <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
+    <!-- SCRIPTS -->
 
-    var el = document.querySelector('.custom-scrollbar');
-        Ps.initialize(el);
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="view-source:https://mdbootstrap.com/live/_MDB/templates/Portfolio/js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="view-source:https://mdbootstrap.com/live/_MDB/templates/Portfolio/js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="view-source:https://mdbootstrap.com/live/_MDB/templates/Portfolio/js/mdb.min.js"></script>
+
+    <script>
+      // initialize scrollspy
+      $('body').scrollspy({
+        target: '.dotted-scrollspy'
+      });
+
+      // initialize lightbox
+      $(function () {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      });
+
+      $('.navbar-collapse a').click(function(){
+              $(".navbar-collapse").collapse('hide');
+          });
+
+      /* WOW.js init */
+      new WOW().init();
+
     </script>
-</body>
+    <!-- SCRIPTS -->
+      <script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled.min.js"></script>
+      <script>
+      $(".button-collapse").sideNav();
+
+      var el = document.querySelector('.custom-scrollbar');
+          Ps.initialize(el);
+      </script>
+  </body>
 </html>
